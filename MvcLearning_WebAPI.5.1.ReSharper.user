@@ -265,8 +265,6 @@
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Handlers/f:AddQuantityCommandHandler.cs" caret="361" fromTop="13" />
-      <File id="9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC/f:ShoppingCartElement.cs" caret="0" fromTop="0" />
       <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:QuantityAddedDbEventHandler.cs" caret="448" fromTop="15" />
       <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:EventHandlers/f:QuantityAddedEventHandlersTest.cs" caret="1123" fromTop="34" />
       <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:Domain/f:ShoppingCartTest.cs" caret="1642" fromTop="41" />
@@ -276,7 +274,6 @@
       <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:IFailedEventsQuery.cs" caret="183" fromTop="10" />
       <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:Infrastructure/f:TestEventPublisher.cs" caret="954" fromTop="22" />
       <File id="3914DCC3-AC2E-4250-9006-E30C703286FB/f:BusinessProxy.cs" caret="760" fromTop="20" />
-      <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:CommandHandlers/f:AddQuantityCommandHandlerTest.cs" caret="1571" fromTop="14" />
       <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:EventPublisher.cs" caret="215" fromTop="7" />
       <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:FailedEventsRepository.cs" caret="230" fromTop="4" />
       <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:FailedEventsQuery.cs" caret="229" fromTop="10" />
@@ -294,10 +291,12 @@
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="441" fromTop="7" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ProductsController.cs" caret="1059" fromTop="39" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:FailedEventsController.cs" caret="308" fromTop="5" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1846" fromTop="12" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/f:Global.asax.cs" caret="237" fromTop="11" />
+      <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:CommandHandlers/f:AddQuantityCommandHandlerTest.cs" caret="1692" fromTop="14" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/f:Web.Debug.config" caret="889" fromTop="15" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="55" fromTop="4" />
     </RecentFiles>
     <RecentEdits>
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:FailedEventsController.cs" caret="419" fromTop="8" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="250" fromTop="18" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="332" fromTop="13" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="2348" fromTop="20" />
@@ -327,6 +326,7 @@
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3132" fromTop="9" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="2274" fromTop="17" />
       <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1846" fromTop="12" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="54" fromTop="4" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
