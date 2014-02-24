@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1473704b-8df5-427f-b545-ad74fb3944ef" name="tomtom@TOMTOM-WIN 2014-02-20 10:47:39" runUser="TOMTOM-WIN\tomtom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bf25ccc8-551f-42c3-ad96-6801a1b9f554">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="tomtom_TOMTOM-WIN 2014-02-20 10_47_39" />
+  </TestSettings>
+  <Times creation="2014-02-20T10:47:39.4536456+01:00" queuing="2014-02-20T10:47:40.1776870+01:00" start="2014-02-20T10:47:40.3566972+01:00" finish="2014-02-20T10:47:41.2527485+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QuantityAddedDbEventHandlerTest" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="445097d5-09c3-b32b-0c1a-7077be211dd5">
+      <Execution timeOut="1800000" id="f724155a-d61e-457e-8338-2ecb71012616" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.EventHandlers.QuantityAddedEventHandlersTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuantityAddedDbEventHandlerTest" />
+    </UnitTest>
+    <UnitTest name="HandleTestWithException" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="70a947a0-a04a-7167-80be-b354c5c857a0">
+      <Execution timeOut="1800000" id="bb631b66-2095-45f4-b8a3-16ce4728e549" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.CommandHandlers.AddQuantityCommandHandlerTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandleTestWithException" />
+    </UnitTest>
+    <UnitTest name="HandleTest" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="cc9b3c62-df8f-41da-5d8b-30499c1b2536">
+      <Execution timeOut="1800000" id="b5855407-51c5-46d7-9cfd-67b75dc12d3b" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.CommandHandlers.AddQuantityCommandHandlerTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandleTest" />
+    </UnitTest>
+    <UnitTest name="QuantityAddedDbEventHandlerExceptionTest" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="af91c8e6-86d6-9b46-801e-c78247f76c88">
+      <Execution timeOut="1800000" id="6c66de8f-2188-4480-90e1-d46469f19e08" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.EventHandlers.QuantityAddedEventHandlersTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuantityAddedDbEventHandlerExceptionTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cc9b3c62-df8f-41da-5d8b-30499c1b2536" executionId="b5855407-51c5-46d7-9cfd-67b75dc12d3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70a947a0-a04a-7167-80be-b354c5c857a0" executionId="bb631b66-2095-45f4-b8a3-16ce4728e549" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af91c8e6-86d6-9b46-801e-c78247f76c88" executionId="6c66de8f-2188-4480-90e1-d46469f19e08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445097d5-09c3-b32b-0c1a-7077be211dd5" executionId="f724155a-d61e-457e-8338-2ecb71012616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b5855407-51c5-46d7-9cfd-67b75dc12d3b" testId="cc9b3c62-df8f-41da-5d8b-30499c1b2536" testName="HandleTest" computerName="TOMTOM-WIN" duration="00:00:00.5980749" startTime="2014-02-20T10:47:40.5097060+01:00" endTime="2014-02-20T10:47:41.1647435+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5855407-51c5-46d7-9cfd-67b75dc12d3b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;3&gt;. </Message>
+          <StackTrace>   w UnitTests.CommandHandlers.AddQuantityCommandHandlerTest.HandleTest() w C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\UnitTests\CommandHandlers\AddQuantityCommandHandlerTest.cs:wiersz 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb631b66-2095-45f4-b8a3-16ce4728e549" testId="70a947a0-a04a-7167-80be-b354c5c857a0" testName="HandleTestWithException" computerName="TOMTOM-WIN" duration="00:00:00.0026612" startTime="2014-02-20T10:47:41.1707438+01:00" endTime="2014-02-20T10:47:41.1747440+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb631b66-2095-45f4-b8a3-16ce4728e549">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.CommandHandlers.AddQuantityCommandHandlerTest.HandleTestWithException did not throw expected exception System.NotImplementedException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6c66de8f-2188-4480-90e1-d46469f19e08" testId="af91c8e6-86d6-9b46-801e-c78247f76c88" testName="QuantityAddedDbEventHandlerExceptionTest" computerName="TOMTOM-WIN" duration="00:00:00.0004225" startTime="2014-02-20T10:47:41.1777442+01:00" endTime="2014-02-20T10:47:41.1787443+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c66de8f-2188-4480-90e1-d46469f19e08">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.EventHandlers.QuantityAddedEventHandlersTest.QuantityAddedDbEventHandlerExceptionTest did not throw expected exception System.ArgumentNullException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f724155a-d61e-457e-8338-2ecb71012616" testId="445097d5-09c3-b32b-0c1a-7077be211dd5" testName="QuantityAddedDbEventHandlerTest" computerName="TOMTOM-WIN" duration="00:00:00.0003165" startTime="2014-02-20T10:47:41.1807444+01:00" endTime="2014-02-20T10:47:41.1817444+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f724155a-d61e-457e-8338-2ecb71012616">
+    </UnitTestResult>
+  </Results>
+</TestRun>

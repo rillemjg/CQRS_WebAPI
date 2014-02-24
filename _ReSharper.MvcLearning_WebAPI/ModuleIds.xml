@@ -1,0 +1,12 @@
+<Modules>
+  <Module PersistentId="5CD0EF75-7726-4284-9041-9CD29C6A4B2D" ModuleId="MvcLearning_WebAPI" />
+  <Module PersistentId="107DC057-6F59-411D-AA6E-E57CA6DBB30D" ModuleId="CommandProxy" />
+  <Module PersistentId="8DE13BFF-EA10-4010-9FBE-3255A279091F" ModuleId="Commands" />
+  <Module PersistentId="369C2441-97A1-4448-A593-D5FBE6C27B20" ModuleId="Repositories" />
+  <Module PersistentId="C772601F-A83D-4FFF-B126-7902DA7D1AC8" ModuleId="Domain" />
+  <Module PersistentId="9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC" ModuleId="Dtos" />
+  <Module PersistentId="3914DCC3-AC2E-4250-9006-E30C703286FB" ModuleId="BusinessProxy" />
+  <Module PersistentId="1888E3CA-5893-434C-A708-81BC3EBE3207" ModuleId="Events" />
+  <Module PersistentId="73B8E944-7C71-4044-A5C3-B5DD6F329CF0" ModuleId="Queries" />
+  <Module PersistentId="1E685014-3DE1-4BE9-B315-812D98D84C9E" ModuleId="UnitTests" />
+</Modules>

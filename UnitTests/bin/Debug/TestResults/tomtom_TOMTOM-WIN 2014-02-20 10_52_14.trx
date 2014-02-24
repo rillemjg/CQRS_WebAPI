@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="244ed4a9-6c56-4faf-9c62-f81adc64d1fe" name="tomtom@TOMTOM-WIN 2014-02-20 10:52:14" runUser="TOMTOM-WIN\tomtom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3d583eae-12c9-447a-84a7-4c5c9c09fc56">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="tomtom_TOMTOM-WIN 2014-02-20 10_52_14" />
+  </TestSettings>
+  <Times creation="2014-02-20T10:52:14.2213614+01:00" queuing="2014-02-20T10:52:14.9674041+01:00" start="2014-02-20T10:52:15.1464143+01:00" finish="2014-02-20T10:52:16.0154640+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QuantityAddedDbEventHandlerTest" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="445097d5-09c3-b32b-0c1a-7077be211dd5">
+      <Execution timeOut="1800000" id="60b0dba1-0bde-406e-bf37-6a208cc12650" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.EventHandlers.QuantityAddedEventHandlersTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuantityAddedDbEventHandlerTest" />
+    </UnitTest>
+    <UnitTest name="HandleTestWithException" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="70a947a0-a04a-7167-80be-b354c5c857a0">
+      <Execution timeOut="1800000" id="974e8454-8e6d-4a4d-9104-12a4742bfd87" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.CommandHandlers.AddQuantityCommandHandlerTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandleTestWithException" />
+    </UnitTest>
+    <UnitTest name="HandleTest" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="cc9b3c62-df8f-41da-5d8b-30499c1b2536">
+      <Execution timeOut="1800000" id="915beabd-6ea0-4a07-b807-4f5135890ade" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.CommandHandlers.AddQuantityCommandHandlerTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandleTest" />
+    </UnitTest>
+    <UnitTest name="QuantityAddedDbEventHandlerExceptionTest" storage="c:\users\tomtom\documents\visual studio 2010\projects\mvclearning_webapi\unittests\bin\debug\unittests.dll" id="af91c8e6-86d6-9b46-801e-c78247f76c88">
+      <Execution timeOut="1800000" id="3545739a-23c0-4ac9-b480-ca221653a03b" />
+      <TestMethod codeBase="C:/Users/tomtom/documents/visual studio 2010/Projects/MvcLearning_WebAPI/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.EventHandlers.QuantityAddedEventHandlersTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuantityAddedDbEventHandlerExceptionTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cc9b3c62-df8f-41da-5d8b-30499c1b2536" executionId="915beabd-6ea0-4a07-b807-4f5135890ade" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70a947a0-a04a-7167-80be-b354c5c857a0" executionId="974e8454-8e6d-4a4d-9104-12a4742bfd87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af91c8e6-86d6-9b46-801e-c78247f76c88" executionId="3545739a-23c0-4ac9-b480-ca221653a03b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445097d5-09c3-b32b-0c1a-7077be211dd5" executionId="60b0dba1-0bde-406e-bf37-6a208cc12650" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="915beabd-6ea0-4a07-b807-4f5135890ade" testId="cc9b3c62-df8f-41da-5d8b-30499c1b2536" testName="HandleTest" computerName="TOMTOM-WIN" duration="00:00:00.3380318" startTime="2014-02-20T10:52:15.3004231+01:00" endTime="2014-02-20T10:52:15.6944457+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="915beabd-6ea0-4a07-b807-4f5135890ade">
+    </UnitTestResult>
+    <UnitTestResult executionId="974e8454-8e6d-4a4d-9104-12a4742bfd87" testId="70a947a0-a04a-7167-80be-b354c5c857a0" testName="HandleTestWithException" computerName="TOMTOM-WIN" duration="00:00:00.0039003" startTime="2014-02-20T10:52:15.6974458+01:00" endTime="2014-02-20T10:52:15.7024461+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="974e8454-8e6d-4a4d-9104-12a4742bfd87">
+    </UnitTestResult>
+    <UnitTestResult executionId="3545739a-23c0-4ac9-b480-ca221653a03b" testId="af91c8e6-86d6-9b46-801e-c78247f76c88" testName="QuantityAddedDbEventHandlerExceptionTest" computerName="TOMTOM-WIN" duration="00:00:00.2458701" startTime="2014-02-20T10:52:15.7054463+01:00" endTime="2014-02-20T10:52:15.9514604+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3545739a-23c0-4ac9-b480-ca221653a03b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.EventHandlers.QuantityAddedEventHandlersTest.QuantityAddedDbEventHandlerExceptionTest did not throw expected exception System.ArgumentNullException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60b0dba1-0bde-406e-bf37-6a208cc12650" testId="445097d5-09c3-b32b-0c1a-7077be211dd5" testName="QuantityAddedDbEventHandlerTest" computerName="TOMTOM-WIN" duration="00:00:00.0003079" startTime="2014-02-20T10:52:15.9534605+01:00" endTime="2014-02-20T10:52:15.9544605+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60b0dba1-0bde-406e-bf37-6a208cc12650">
+    </UnitTestResult>
+  </Results>
+</TestRun>

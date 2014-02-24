@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "ShoppingCart";
+}
+
+<h2>Koszyk</h2>
+
+<ul id="ulcart">
+    
+</ul>
+
+<script type="text/javascript" src="~/Scripts/jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $.get(
+        //       'api/products',
+            'http://localhost:49521/api/ShoppingCart',
+            function (data, textStatus, jqXHR) {
+                if (data != null && data.length > 0) {
+                    $.each(data, function (index, value) {
+                        $("#ulcart").append($("<li>").text(value));
+                    });
+                }
+            }
+        );
+    });
+</script>

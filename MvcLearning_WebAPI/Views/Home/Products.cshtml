@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Produkty</h2>
+
+@using (Html.BeginForm())
+{
+    <select id="ddl">
+    </select>
+    
+    <input type="text" id="quant">
+    </input>
+    
+    <button type="button" id="bsend">Dodaj produkt</button>
+}
+
+<script type="text/javascript" src="~/Scripts/jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript">
+    var selectedId = -1;
+
+    $(function () {
+        $.get(
+        //       'api/products',
+            'http://localhost:49521/api/products',
+            function (data, textStatus, jqXHR) {
+                if (data != null && data.length > 0) {
+                    selectedId = 1;
+                    $.each(data, function (index, value) {
+                        $("#ddl").append($('<option>').text(value.Name).attr('value', value.Id));
+                    });
+                }
+            }
+        );
+
+        $("#ddl").change(function () {
+            selectedId = $(this).children(":selected").attr("value");
+        });
+
+        $("#bsend").click(function (data) {
+            var quantity = $("#quant").val();
+
+            if (quantity != null && quantity != "") {
+                $.post(
+                    'http://localhost:49521/api/products',
+                    { ProductId: selectedId, Quantity: quantity, Name: "" },
+                    function () { },
+                    "json"
+                );
+            }
+        });
+    });
+</script>

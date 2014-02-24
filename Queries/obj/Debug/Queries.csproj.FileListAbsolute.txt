@@ -1,0 +1,9 @@
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\bin\Debug\Queries.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\bin\Debug\Queries.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\bin\Debug\Dtos.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\bin\Debug\Repositories.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\bin\Debug\Dtos.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\bin\Debug\Repositories.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\obj\Debug\Queries.csprojResolveAssemblyReference.cache
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\obj\Debug\Queries.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Queries\obj\Debug\Queries.pdb

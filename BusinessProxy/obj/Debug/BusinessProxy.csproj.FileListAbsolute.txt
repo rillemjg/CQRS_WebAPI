@@ -1,0 +1,13 @@
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\obj\Debug\BusinessProxy.csprojResolveAssemblyReference.cache
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\BusinessProxy.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\BusinessProxy.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Domain.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Dtos.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Repositories.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Events.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Domain.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Dtos.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Repositories.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\bin\Debug\Events.pdb
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\obj\Debug\BusinessProxy.dll
+C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\BusinessProxy\obj\Debug\BusinessProxy.pdb
