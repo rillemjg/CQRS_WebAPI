@@ -13,6 +13,12 @@ namespace Events.Handlers
         public void Handle(QuantityAddedEvent eventData)
         {
             ShoppingCartElement shoppingCartElement = ShoppingCartRepository.Get(eventData.ProductId);
+
+            if (shoppingCartElement == null)
+            {
+                shoppingCartElement = new ShoppingCartElement();
+            }
+
             shoppingCartElement.ProductId = eventData.ProductId;
             shoppingCartElement.Quantity += eventData.AddedQuantity;
             ShoppingCartRepository.Save(shoppingCartElement);

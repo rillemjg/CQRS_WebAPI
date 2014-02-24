@@ -44,9 +44,12 @@
             'http://localhost:49521/api/failedevents/get',
             function (data, textStatus, jqXHR) {
                 if (data != null) {
-                    $("#failed-events")
-                        .text("An error occured: " + data.EventName)
-                        .fadeOut(4000, function () { });
+                    console.log(data);
+                    $("<div>An error occured: " + data.EventName + "</div>")
+                        .appendTo("#failed-events")
+                        .fadeOut(4000, function () {
+                            $(this).remove();
+                        });
                 }
             }
         );
@@ -61,7 +64,6 @@
                 });
 
                 selectedId = $("#ddl").first("<option>").val();
-                console.log(selectedId);
             }
         );
     };

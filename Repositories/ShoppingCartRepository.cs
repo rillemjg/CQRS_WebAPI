@@ -17,19 +17,7 @@ namespace Repositories
 
         public static ShoppingCartElement Get(int productId)
         {
-            var element = cartElements.SingleOrDefault(x => x.ProductId == productId);
-
-            if (element == null)
-            {
-                element = new ShoppingCartElement()
-                              {
-                                  ProductId = productId,
-                                  Quantity = 0
-                              };
-                cartElements.Add(element);
-            }
-
-            return element;
+            return cartElements.SingleOrDefault(x => x.ProductId == productId);
         }
 
         public static IEnumerable<ShoppingCartElement> GetAllShoppingCartElements()

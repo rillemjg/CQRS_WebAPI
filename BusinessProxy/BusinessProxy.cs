@@ -15,6 +15,14 @@ namespace BusinessProxy
         public ShoppingCart GetShoppingCart(int productId)
         {
             var shoppingCartElement = ShoppingCartRepository.Get(productId);
+
+            if (shoppingCartElement == null)
+            {
+                shoppingCartElement = new ShoppingCartElement();
+                shoppingCartElement.ProductId = productId;
+                shoppingCartElement.Quantity = 0;
+            }
+
             var quantityAdditionFailedEventHandler = new QuantityAdditionFailedEventHandler();
             var quantityAddedDbEventHandler = new QuantityAddedDbEventHandler();
             return new ShoppingCart(new EventPublisher(quantityAdditionFailedEventHandler, quantityAddedDbEventHandler),
