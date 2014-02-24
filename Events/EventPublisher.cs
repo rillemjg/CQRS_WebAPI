@@ -9,17 +9,24 @@ namespace Events
 {
     public class EventPublisher : IEventPublisher
     {
+        private QuantityAdditionFailedEventHandler quantityAdditionFailedEventHandler;
+        private QuantityAddedDbEventHandler quantityAddedDbEventHandler;
+
+        public EventPublisher(QuantityAdditionFailedEventHandler quantityAdditionFailedEventHandler, QuantityAddedDbEventHandler quantityAddedDbEventHandler)
+        {
+            this.quantityAdditionFailedEventHandler = quantityAdditionFailedEventHandler;
+            this.quantityAddedDbEventHandler = quantityAddedDbEventHandler;
+        }
+
         public void Publish(IEvent eventData)
         {
             if (eventData is QuantityAdditionFailedEvent)
             {
-                var handler = new QuantityAdditionFailedEventHandler();
-                handler.Handle((QuantityAdditionFailedEvent)eventData);
+                quantityAdditionFailedEventHandler.Handle((QuantityAdditionFailedEvent)eventData);
             }
             else if (eventData is QuantityAddedEvent)
             {
-                var handler = new QuantityAddedDbEventHandler();
-                handler.Handle((QuantityAddedEvent)eventData);
+                quantityAddedDbEventHandler.Handle((QuantityAddedEvent)eventData);
             }
         }
     }

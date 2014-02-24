@@ -5,6 +5,8 @@ using System.Text;
 using Dtos;
 using Repositories;
 using Domain;
+using Events;
+using Events.Handlers;
 
 namespace BusinessProxy
 {
@@ -13,7 +15,11 @@ namespace BusinessProxy
         public ShoppingCart GetShoppingCart(int productId)
         {
             var shoppingCartElement = ShoppingCartRepository.Get(productId);
-            return new ShoppingCart(shoppingCartElement.ProductId, shoppingCartElement.Quantity);
+            var quantityAdditionFailedEventHandler = new QuantityAdditionFailedEventHandler();
+            var quantityAddedDbEventHandler = new QuantityAddedDbEventHandler();
+            return new ShoppingCart(new EventPublisher(quantityAdditionFailedEventHandler, quantityAddedDbEventHandler),
+                shoppingCartElement.ProductId,
+                shoppingCartElement.Quantity);
         }
     }
 }

@@ -5,3 +5,10 @@ C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Reposit
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Repositories\obj\Debug\Repositories.csprojResolveAssemblyReference.cache
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Repositories\obj\Debug\Repositories.dll
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Repositories\obj\Debug\Repositories.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\bin\Debug\Repositories.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\bin\Debug\Repositories.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\bin\Debug\Dtos.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\bin\Debug\Dtos.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\obj\Debug\Repositories.csprojResolveAssemblyReference.cache
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\obj\Debug\Repositories.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Repositories\obj\Debug\Repositories.pdb

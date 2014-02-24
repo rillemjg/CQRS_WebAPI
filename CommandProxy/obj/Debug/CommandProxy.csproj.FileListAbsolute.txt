@@ -15,3 +15,20 @@ C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Command
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\CommandProxy\obj\Debug\CommandProxy.csprojResolveAssemblyReference.cache
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\CommandProxy\obj\Debug\CommandProxy.dll
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\CommandProxy\obj\Debug\CommandProxy.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\CommandProxy.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\CommandProxy.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Commands.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\BusinessProxy.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Domain.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Repositories.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Dtos.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Events.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Commands.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\BusinessProxy.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Domain.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Repositories.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Dtos.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\bin\Debug\Events.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\obj\Debug\CommandProxy.csprojResolveAssemblyReference.cache
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\obj\Debug\CommandProxy.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\CommandProxy\obj\Debug\CommandProxy.pdb

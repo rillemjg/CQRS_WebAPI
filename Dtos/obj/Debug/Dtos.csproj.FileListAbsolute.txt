@@ -2,3 +2,7 @@ C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Dtos\bi
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Dtos\bin\Debug\Dtos.pdb
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Dtos\obj\Debug\Dtos.dll
 C:\Users\tomtom\documents\visual studio 2010\Projects\MvcLearning_WebAPI\Dtos\obj\Debug\Dtos.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Dtos\bin\Debug\Dtos.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Dtos\bin\Debug\Dtos.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Dtos\obj\Debug\Dtos.dll
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Dtos\obj\Debug\Dtos.pdb

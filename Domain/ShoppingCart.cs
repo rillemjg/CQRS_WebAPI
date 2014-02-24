@@ -10,13 +10,13 @@ namespace Domain
     public class ShoppingCart
     {
         private int productId, currentQuantity;
-        private EventPublisher eventPublisher;
+        private IEventPublisher eventPublisher;
 
-        public ShoppingCart(int productId, int currentQuantity)
+        public ShoppingCart(IEventPublisher eventPublisher, int productId, int currentQuantity)
         {
             this.productId = productId;
             this.currentQuantity = currentQuantity;
-            eventPublisher = new EventPublisher();
+            this.eventPublisher = eventPublisher;
         }
 
         public void AddQuantity(int addedQuantity)

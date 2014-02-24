@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Events.Events;
+using Repositories;
+using Dtos;
 
 namespace Events.Handlers
 {
@@ -10,7 +12,11 @@ namespace Events.Handlers
     {
         public void Handle(QuantityAdditionFailedEvent eventData)
         {
-            throw new NotImplementedException();
+            var failedEventData = new FailedEventData();
+            failedEventData.EventName = "QuantityAdditionFailedEvent";
+            failedEventData.ProductId = eventData.ProductId;
+
+            FailedEventsRepository.AddFailedEvent(failedEventData);
         }
     }
 }

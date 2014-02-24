@@ -12,17 +12,15 @@ namespace MvcLearning_WebAPI.Controllers
     public class ShoppingCartController : ApiController
     {
         // GET api/shoppingcart
-        public IEnumerable<string> Get()
+        public IEnumerable<string> GetAllShoppingCartElements()
         {
             return new ShoppingCartQuery().GetAllShoppingCartElements();
         }
 
-        //// GET api/shoppingcart/5
-        //public ShoppingCartElement Get(int id)
-        //{
-        //    // TODO: przerobić na użycie query
-        //    return ShoppingCartRepository.Get(id);
-        //}
+        public IEnumerable<int> GetFullCartElements()
+        {
+            return new ShoppingCartQuery().GetFullCartElementsIds();
+        }
 
         //// POST api/shoppingcart
         //public void Post([FromBody]string value)

@@ -42,12 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandHandlers\AddQuantityCommandHandlerTest.cs" />
+    <Compile Include="Domain\ShoppingCartTest.cs" />
     <Compile Include="EventHandlers\QuantityAddedEventHandlersTest.cs" />
+    <Compile Include="Infrastructure\TestEventPublisher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="QueryHandlers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CommandProxy\CommandProxy.csproj">
       <Project>{107DC057-6F59-411D-AA6E-E57CA6DBB30D}</Project>
@@ -56,6 +56,10 @@
     <ProjectReference Include="..\Commands\Commands.csproj">
       <Project>{8DE13BFF-EA10-4010-9FBE-3255A279091F}</Project>
       <Name>Commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{C772601F-A83D-4FFF-B126-7902DA7D1AC8}</Project>
+      <Name>Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\Dtos\Dtos.csproj">
       <Project>{9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC}</Project>

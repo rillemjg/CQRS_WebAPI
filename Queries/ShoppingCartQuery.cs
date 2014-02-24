@@ -56,5 +56,18 @@ namespace Queries
 
             return product.Name + ": " + shoppingCartElement.Quantity;
         }
+
+        public bool IsCartFullOfProduct(int productId)
+        {
+            var shoppingCartElement = ShoppingCartRepository.Get(productId);
+            return shoppingCartElement.Quantity >= 20;
+        }
+
+
+        public IEnumerable<int> GetFullCartElementsIds()
+        {
+            return
+                ShoppingCartRepository.GetAllShoppingCartElements().Where(x => x.Quantity == 20).Select(z => z.ProductId);
+        }
     }
 }

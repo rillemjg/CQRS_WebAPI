@@ -52,6 +52,10 @@
       <Project>{9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC}</Project>
       <Name>Dtos</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Events\Events.csproj">
+      <Project>{1888E3CA-5893-434C-A708-81BC3EBE3207}</Project>
+      <Name>Events</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repositories\Repositories.csproj">
       <Project>{369C2441-97A1-4448-A593-D5FBE6C27B20}</Project>
       <Name>Repositories</Name>

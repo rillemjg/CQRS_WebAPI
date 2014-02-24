@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FailedEventsQuery.cs" />
+    <Compile Include="IFailedEventsQuery.cs" />
     <Compile Include="IShoppingCartQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShoppingCartQuery.cs" />

@@ -15,5 +15,7 @@ namespace Queries
         IEnumerable<string> GetAllShoppingCartElements();
 
         string GetShoppingCartElement(int productId);
+
+        IEnumerable<int> GetFullCartElementsIds();
     }
 }
