@@ -9,52 +9,52 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="private" priority="11" />
+      <Item value="private" priority="21" />
       <Item value="const" priority="0" />
-      <Item value="string" priority="9" />
+      <Item value="string" priority="28" />
       <Item value="SessionProductKey" priority="1" />
       <Item value="EnvironmentVariableTarget`0" priority="1" />
-      <Item value="var" priority="33" />
+      <Item value="var" priority="48" />
       <Item value="value" priority="6" />
-      <Item value="if" priority="31" />
-      <Item value="null" priority="10" />
+      <Item value="if" priority="46" />
+      <Item value="null" priority="16" />
       <Item value="values" priority="0" />
-      <Item value="public" priority="41" />
-      <Item value="int" priority="28" />
-      <Item value="product" priority="9" />
-      <Item value="productsList" priority="4" />
+      <Item value="public" priority="69" />
+      <Item value="int" priority="35" />
+      <Item value="product" priority="12" />
+      <Item value="productsList" priority="5" />
       <Item value="cachedProduct" priority="1" />
       <Item value="Quantity" priority="2" />
-      <Item value="void" priority="17" />
-      <Item value="ICommand`0" priority="2" />
-      <Item value="static" priority="18" />
+      <Item value="void" priority="21" />
+      <Item value="ICommand`0" priority="3" />
+      <Item value="static" priority="22" />
       <Item value="ProductCommandProxy`0" priority="0" />
-      <Item value="List" priority="12" />
+      <Item value="List" priority="28" />
       <Item value="commands" priority="0" />
-      <Item value="new" priority="43" />
+      <Item value="new" priority="85" />
       <Item value="List&lt;ICommand&gt;" priority="0" />
-      <Item value="command" priority="18" />
-      <Item value="throw" priority="3" />
+      <Item value="command" priority="29" />
+      <Item value="throw" priority="7" />
       <Item value="ArgumentNullException" priority="1" />
       <Item value="commandsList" priority="5" />
-      <Item value="is" priority="4" />
+      <Item value="is" priority="10" />
       <Item value="where" priority="1" />
       <Item value="T`0" priority="1" />
       <Item value="Type`0" priority="1" />
       <Item value="typeof" priority="2" />
-      <Item value="ICommandHandler" priority="2" />
+      <Item value="ICommandHandler" priority="5" />
       <Item value="genericType" priority="0" />
       <Item value="AddQuantityCommandHandler`0" priority="0" />
       <Item value="AddQuantityCommand`0" priority="0" />
-      <Item value="commandHandler" priority="0" />
+      <Item value="commandHandler" priority="2" />
       <Item value="ProductCommandProxy" priority="1" />
-      <Item value="commandProxy" priority="1" />
+      <Item value="commandProxy" priority="5" />
       <Item value="AddQuantityCommand" priority="3" />
       <Item value="ProductsRepository`0" priority="0" />
-      <Item value="ProductRepository`0" priority="5" />
+      <Item value="ProductRepository`0" priority="7" />
       <Item value="List&lt;Product&gt;" priority="0" />
-      <Item value="return" priority="23" />
-      <Item value="Product`0" priority="2" />
+      <Item value="return" priority="33" />
+      <Item value="Product`0" priority="4" />
       <Item value="productId" priority="9" />
       <Item value="quantity" priority="0" />
       <Item value="ShoppingCartElement`0" priority="6" />
@@ -65,43 +65,43 @@
       <Item value="CrossAppDomainDelegate`0" priority="0" />
       <Item value="element" priority="7" />
       <Item value="repositoryElement" priority="1" />
-      <Item value="else" priority="4" />
+      <Item value="else" priority="13" />
       <Item value="ShoppingCart`0" priority="1" />
       <Item value="ShoppingCart" priority="0" />
       <Item value="iterator" priority="0" />
-      <Item value="this" priority="10" />
+      <Item value="this" priority="23" />
       <Item value="addedQuantity" priority="4" />
       <Item value="currentQuantity" priority="2" />
-      <Item value="shoppingCartElement" priority="28" />
+      <Item value="shoppingCartElement" priority="32" />
       <Item value="using" priority="2" />
-      <Item value="BusinessProxy" priority="0" />
-      <Item value="shoppingCart" priority="1" />
-      <Item value="eventPublisher" priority="0" />
-      <Item value="EventPublisher" priority="0" />
+      <Item value="BusinessProxy" priority="2" />
+      <Item value="shoppingCart" priority="2" />
+      <Item value="eventPublisher" priority="1" />
+      <Item value="EventPublisher" priority="1" />
       <Item value="Publish`0" priority="0" />
-      <Item value="IEvent`0" priority="2" />
-      <Item value="IEventPublisher`0" priority="0" />
+      <Item value="IEvent`0" priority="6" />
+      <Item value="IEventPublisher`0" priority="3" />
       <Item value="EventHandler`0" priority="1" />
-      <Item value="eventData" priority="11" />
+      <Item value="eventData" priority="27" />
       <Item value="QuantityAdditionFailedEvent`0" priority="2" />
       <Item value="QuantityAddedEvent`0" priority="2" />
       <Item value="handler" priority="2" />
-      <Item value="IEventHandler" priority="2" />
+      <Item value="IEventHandler" priority="6" />
       <Item value="QuantityAddedEventHandler`0" priority="0" />
       <Item value="QuantityAddedDBEventHandler`0" priority="1" />
       <Item value="QuantityAdditionFailedEventHandler`0" priority="0" />
       <Item value="ShoppingCartElement" priority="5" />
-      <Item value="NotImplementedException" priority="0" />
+      <Item value="NotImplementedException" priority="4" />
       <Item value="Repositories" priority="0" />
       <Item value="false" priority="0" />
       <Item value="ActionResult`0" priority="0" />
       <Item value="View`0" priority="0" />
-      <Item value="IEnumerable" priority="5" />
+      <Item value="IEnumerable" priority="6" />
       <Item value="id" priority="0" />
-      <Item value="ProductId" priority="4" />
+      <Item value="ProductId" priority="6" />
       <Item value="IShoppingCartQuery`0" priority="0" />
       <Item value="List&lt;string&gt;" priority="0" />
-      <Item value="foreach" priority="0" />
+      <Item value="foreach" priority="2" />
       <Item value="elements" priority="4" />
       <Item value="GetShoppingCartElement`0" priority="0" />
       <Item value="elementWithName" priority="2" />
@@ -111,14 +111,14 @@
       <Item value="Assert`0" priority="6" />
       <Item value="shoppingCartQueryResult" priority="1" />
       <Item value="ExpectedException" priority="1" />
-      <Item value="NotImplementedException`0" priority="0" />
+      <Item value="NotImplementedException`0" priority="2" />
       <Item value="QuantityAddedEventHandlersTest`0" priority="0" />
       <Item value="AddedQuantity" priority="1" />
       <Item value="quantityAddedDbEventHandler" priority="2" />
       <Item value="quantityAddedEvent" priority="0" />
       <Item value="repositoryResult" priority="0" />
       <Item value="ArgumentNullException`0" priority="0" />
-      <Item value="true" priority="0" />
+      <Item value="true" priority="6" />
       <Item value="while" priority="0" />
       <Item value="TestEventPublisher`0" priority="0" />
       <Item value="failedEvents" priority="0" />
@@ -135,22 +135,117 @@
       <Item value="FailedEventsRepository`0" priority="0" />
       <Item value="List&lt;FailedEventData&gt;" priority="0" />
       <Item value="failedEvent" priority="0" />
-      <Item value="failedEventData" priority="4" />
+      <Item value="failedEventData" priority="9" />
       <Item value="IFailedEventsQuery`0" priority="0" />
       <Item value="failedEventsQuery" priority="0" />
-      <Item value="z" priority="0" />
+      <Item value="z" priority="1" />
+      <Item value="Price" priority="3" />
+      <Item value="shoppingCartElements" priority="0" />
+      <Item value="namedElements" priority="3" />
+      <Item value="List&lt;ShoppingCartNamedElement&gt;" priority="0" />
+      <Item value="ShoppingCartNamedElement" priority="1" />
+      <Item value="products" priority="4" />
+      <Item value="ProductName" priority="0" />
+      <Item value="FromUri" priority="2" />
+      <Item value="FromBody" priority="2" />
+      <Item value="ICommandProxy`0" priority="1" />
+      <Item value="ShoppingCartNamedElements" priority="1" />
+      <Item value="PerformPaymentCommandHandler`0" priority="1" />
+      <Item value="PerformPaymentCommand`0" priority="1" />
+      <Item value="cartNamedElements" priority="2" />
+      <Item value="shoppingCartNamedElements" priority="5" />
+      <Item value="Payment`0" priority="1" />
+      <Item value="ShoppingCartNamedElement`0" priority="1" />
+      <Item value="thr" priority="0" />
+      <Item value="Payment" priority="0" />
+      <Item value="PaymentEventPublisher`0" priority="0" />
+      <Item value="PaymentSucceededEventHandler`0" priority="2" />
+      <Item value="PaymentFailedEventHandler`0" priority="3" />
+      <Item value="paymentSucceededEventHandler" priority="4" />
+      <Item value="paymentFailedEventHandler" priority="4" />
+      <Item value="PaymentFailedEvent`0" priority="3" />
+      <Item value="PaymentSucceededEvent`0" priority="1" />
+      <Item value="BusinessProxy`0" priority="1" />
+      <Item value="payment" priority="0" />
+      <Item value="buyedProducts" priority="1" />
+      <Item value="ids" priority="0" />
+      <Item value="productIds" priority="0" />
+      <Item value="paymentEngineService" priority="3" />
+      <Item value="PaymentEngineService" priority="0" />
+      <Item value="WSOrderContext`0" priority="0" />
+      <Item value="wsOrderContext" priority="7" />
+      <Item value="WSOrderContext" priority="0" />
+      <Item value="Orders`0" priority="0" />
+      <Item value="order" priority="3" />
+      <Item value="WSItemsContext`0" priority="0" />
+      <Item value="wsItemsContext" priority="2" />
+      <Item value="WSItemContext" priority="1" />
+      <Item value="shoppingCartNamedElement" priority="6" />
+      <Item value="itemCount" priority="0" />
+      <Item value="Item" priority="0" />
+      <Item value="WSCustomerContext`0" priority="0" />
+      <Item value="wsCustomerContext" priority="1" />
+      <Item value="Address`0" priority="2" />
+      <Item value="Address" priority="1" />
+      <Item value="address" priority="1" />
+      <Item value="WSCreditCardContext" priority="0" />
+      <Item value="wsCreditCardContext" priority="4" />
+      <Item value="CreditCard" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="billingAddress" priority="2" />
+      <Item value="deliveryAddress" priority="1" />
+      <Item value="Verifications`0" priority="0" />
+      <Item value="VerificationsContext`0" priority="0" />
+      <Item value="verificationsContext" priority="3" />
+      <Item value="Merchant" priority="1" />
+      <Item value="MerchantKey" priority="1" />
+      <Item value="BaseResponse`0" priority="0" />
+      <Item value="completeOrderResponse" priority="2" />
+      <Item value="FailureCode" priority="2" />
+      <Item value="PaymentBeginEvent`0" priority="2" />
+      <Item value="PaymentBeginEventHandler`0" priority="3" />
+      <Item value="paymentBeginEventHandler" priority="4" />
+      <Item value="enum" priority="0" />
+      <Item value="PaymentStatus" priority="0" />
+      <Item value="PaymentDatas" priority="0" />
+      <Item value="PaymentData`0" priority="5" />
+      <Item value="List&lt;PaymentData&gt;" priority="1" />
+      <Item value="paymentData" priority="4" />
+      <Item value="paymentDataList" priority="4" />
+      <Item value="data" priority="6" />
+      <Item value="PaymentData" priority="3" />
+      <Item value="message" priority="1" />
+      <Item value="Message" priority="0" />
+      <Item value="PaymentRepository`0" priority="0" />
+      <Item value="IPaymentQuery`0" priority="0" />
+      <Item value="viewModel" priority="1" />
+      <Item value="paymentGuid" priority="6" />
+      <Item value="PaymentGuid" priority="6" />
+      <Item value="guid" priority="0" />
+      <Item value="repositoryPaymentData" priority="5" />
+      <Item value="ClearShoppingCartCommandHandler`0" priority="1" />
+      <Item value="ClearShoppingCartCommand`0" priority="2" />
+      <Item value="ClearShoppingCartEventHandler`0" priority="4" />
+      <Item value="ClearShoppingCartEventHandler" priority="0" />
+      <Item value="clearShoppingCartEventHandler" priority="3" />
+      <Item value="ClearShoppingCartEvent`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Length" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
-      <Item value="Count" priority="8" />
-      <Item value="SingleOrDefault`1" priority="5" />
-      <Item value="Add`0" priority="12" />
+      <Item value="Count" priority="11" />
+      <Item value="SingleOrDefault`1" priority="7" />
+      <Item value="Add`0" priority="17" />
       <Item value="First`1" priority="0" />
       <Item value="RemoveAt`0" priority="1" />
-      <Item value="Remove`0" priority="0" />
-      <Item value="RemoveAll`0" priority="0" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="RemoveAll`0" priority="1" />
+      <Item value="Where`1" priority="2" />
+      <Item value="Single`1" priority="1" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:MvcLearning_WebAPI.Models.Product">
       <Item value="Id" priority="2" />
@@ -160,15 +255,15 @@
       <Item value="GetType`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Type">
-      <Item value="ToString`0" priority="0" />
+      <Item value="ToString`0" priority="2" />
       <Item value="MakeGenericType`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Commands.Handlers.AddQuantityCommandHandler">
       <Item value="Handle`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:CommandProxy.ProductCommandProxy">
-      <Item value="Store`0" priority="3" />
-      <Item value="Process`0" priority="2" />
+      <Item value="Store`0" priority="5" />
+      <Item value="Process`0" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Commands.Commands.AddQuantityCommand">
       <Item value="ProductId" priority="3" />
@@ -180,8 +275,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Repositories.ProductRepository">
       <Item value="AddQuantity`0" priority="0" />
-      <Item value="GetAllProducts`0" priority="1" />
+      <Item value="GetAllProducts`0" priority="2" />
       <Item value="GetById`0" priority="3" />
+      <Item value="GetByIds`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.ShoppingCartElement">
       <Item value="ProductId" priority="4" />
@@ -190,14 +286,15 @@
       <Item value="Get`0" priority="4" />
       <Item value="Save`0" priority="0" />
       <Item value="GetAllShoppingCartElements`0" priority="4" />
-      <Item value="ClearCart`0" priority="0" />
+      <Item value="ClearCart`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain.ShoppingCart">
       <Item value="productId" priority="2" />
       <Item value="addedQuantity" priority="0" />
       <Item value="currentQuantity" priority="0" />
-      <Item value="eventPublisher" priority="1" />
+      <Item value="eventPublisher" priority="2" />
       <Item value="AddQuantity`0" priority="0" />
+      <Item value="ClearShoppingCart`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Dtos.ShoppingCartElement">
       <Item value="Quantity" priority="6" />
@@ -210,7 +307,8 @@
       <Item value="Handle`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Events.Events.QuantityAdditionFailedEvent">
-      <Item value="ProductId" priority="2" />
+      <Item value="ProductId" priority="3" />
+      <Item value="GetType`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Events.Events.QuantityAddedEvent">
       <Item value="AddedQuantity" priority="1" />
@@ -238,7 +336,8 @@
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="Count`1" priority="0" />
       <Item value="Where`1" priority="0" />
-      <Item value="Select`2" priority="0" />
+      <Item value="Select`2" priority="1" />
+      <Item value="ToList`1" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Events.Handlers.QuantityAddedDbEventHandler">
       <Item value="Handle`0" priority="0" />
@@ -250,83 +349,252 @@
     <ItemStatistics item="Qualified:Events.EventPublisher">
       <Item value="quantityAdditionFailedEventHandler" priority="0" />
       <Item value="quantityAddedDbEventHandler" priority="0" />
+      <Item value="clearShoppingCartEventHandler" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Dtos.FailedEventData">
       <Item value="EventName" priority="0" />
       <Item value="ProductId" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Repositories.FailedEventsRepository">
-      <Item value="AddFailedEvent`0" priority="0" />
+      <Item value="AddFailedEvent`0" priority="1" />
       <Item value="GetFirstFailedEvent`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Queries.FailedEventsQuery">
       <Item value="GetFirstFailedEventData`0" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:Dtos.Core.Product">
+      <Item value="Id" priority="4" />
+      <Item value="Name" priority="1" />
+      <Item value="Price" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Dtos.Core.ShoppingCartElement">
+      <Item value="ProductId" priority="1" />
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Commands.Handlers.PerformPaymentCommandHandler">
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Commands.Commands.PerformPaymentCommand">
+      <Item value="ShoppingCartNamedElements" priority="2" />
+      <Item value="Guid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.Payment">
+      <Item value="shoppingCartNamedElements" priority="0" />
+      <Item value="eventPublisher" priority="5" />
+      <Item value="ProcessPayment`0" priority="0" />
+      <Item value="buyedProducts" priority="0" />
+      <Item value="paymentGuid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.PaymentEventPublisher">
+      <Item value="paymentSucceededEventHandler" priority="0" />
+      <Item value="paymentFailedEventHandler" priority="0" />
+      <Item value="paymentBeginEventHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Handlers.PaymentSucceededEventHandler">
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Handlers.PaymentFailedEventHandler">
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessProxy.BusinessProxy">
+      <Item value="GetPayment`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.PaymentEngineService">
+      <Item value="makeNewOrder`0" priority="0" />
+      <Item value="submitOrder`0" priority="0" />
+      <Item value="completeOrder`0" priority="0" />
+      <Item value="completeOrderWithOrderId`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.WSOrderContext">
+      <Item value="order" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="paymentImplement" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.Orders">
+      <Item value="localRef" priority="0" />
+      <Item value="originId" priority="0" />
+      <Item value="orderId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.WSItemsContext">
+      <Item value="items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.WSItemContext">
+      <Item value="item" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.Item">
+      <Item value="itemTypeId" priority="0" />
+      <Item value="itemTypeIdSpecified" priority="0" />
+      <Item value="itemClassId" priority="0" />
+      <Item value="itemClassIdSpecified" priority="0" />
+      <Item value="sku" priority="0" />
+      <Item value="instanceId" priority="0" />
+      <Item value="unitPrice" priority="0" />
+      <Item value="unitPriceSpecified" priority="0" />
+      <Item value="quantity" priority="0" />
+      <Item value="quantitySpecified" priority="0" />
+      <Item value="description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Dtos.Additional.ShoppingCartNamedElement">
+      <Item value="ProductName" priority="2" />
+      <Item value="ProductId" priority="2" />
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.Address">
+      <Item value="address1" priority="2" />
+      <Item value="zip" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.WSPaymentImplementContext">
+      <Item value="type" priority="0" />
+      <Item value="creditCard" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.WSCreditCardContext">
+      <Item value="creditCard" priority="0" />
+      <Item value="textCardNumber" priority="0" />
+      <Item value="dateExpirationDate" priority="0" />
+      <Item value="dateExpirationDateSpecified" priority="0" />
+      <Item value="address" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.CreditCard">
+      <Item value="nameOnCard" priority="0" />
+      <Item value="creditCardTypeId" priority="0" />
+      <Item value="creditCardTypeIdSpecified" priority="0" />
+      <Item value="useCustomerAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddYears`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.VerificationsContext">
+      <Item value="response" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.Response">
+      <Item value="isFailure" priority="2" />
+      <Item value="success" priority="0" />
+      <Item value="failureCode" priority="1" />
+      <Item value="failureMessage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.com.nicusa.cdc.dev.tpe2.BaseResponse">
+      <Item value="response" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.IEventPublisher">
+      <Item value="Publish`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Dtos.Additional.FailedEventData">
+      <Item value="EventType" priority="2" />
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Events.PaymentFailedEvent">
+      <Item value="GetType`0" priority="0" />
+      <Item value="FailureCode" priority="0" />
+      <Item value="FailureMessage" priority="0" />
+      <Item value="PaymentGuid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Handlers.PaymentBeginEventHandler">
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Repositories.PaymentRepository">
+      <Item value="AddPaymentData`0" priority="2" />
+      <Item value="GetPaymentData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Dtos.Infrastructure.PaymentStatus">
+      <Item value="Began" priority="0" />
+      <Item value="Succeeded" priority="0" />
+      <Item value="Failed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Queries.PaymentQuery">
+      <Item value="GetPaymentData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcLearning_WebAPI.ViewModels.ShoppingCartWithGuidViewModel">
+      <Item value="ShoppingCartElements" priority="0" />
+      <Item value="Guid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Dtos.Additional.PaymentData">
+      <Item value="PaymentGuid" priority="7" />
+      <Item value="Message" priority="1" />
+      <Item value="PaymentStatus" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Events.PaymentSucceededEvent">
+      <Item value="PaymentGuid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Events.PaymentBeginEvent">
+      <Item value="PaymentGuid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Commands.Handlers.ClearShoppingCartCommandHandler">
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Handlers.ClearShoppingCartEventHandler">
+      <Item value="Handle`0" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:ProductRepository.cs" caret="0" fromTop="0" />
-      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Events/f:QuantityAdditionFailedEvent.cs" caret="0" fromTop="0" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:IFailedEventsQuery.cs" caret="183" fromTop="10" />
-      <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:Infrastructure/f:TestEventPublisher.cs" caret="954" fromTop="22" />
-      <File id="9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC/f:Product.cs" caret="128" fromTop="7" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:App_Start/f:RouteConfig.cs" caret="0" fromTop="0" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:ShoppingCart.cshtml" caret="287" fromTop="15" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:HomeController.cs" caret="469" fromTop="22" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:IShoppingCartQuery.cs" caret="439" fromTop="19" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:ShoppingCartQuery.cs" caret="499" fromTop="14" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/f:Global.asax.cs" caret="237" fromTop="11" />
-      <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:CommandHandlers/f:AddQuantityCommandHandlerTest.cs" caret="1692" fromTop="14" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/f:Web.Debug.config" caret="889" fromTop="15" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:App_Start/f:WebApiConfig.cs" caret="383" fromTop="13" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="441" fromTop="7" />
-      <File id="9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC/f:FailedEventData.cs" caret="183" fromTop="9" />
-      <File id="1E685014-3DE1-4BE9-B315-812D98D84C9E/d:Domain/f:ShoppingCartTest.cs" caret="1642" fromTop="41" />
-      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:QuantityAddedDbEventHandler.cs" caret="759" fromTop="17" />
-      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:EventPublisher.cs" caret="1156" fromTop="23" />
-      <File id="C772601F-A83D-4FFF-B126-7902DA7D1AC8/f:ShoppingCart.cs" caret="1043" fromTop="25" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:FailedEventsQuery.cs" caret="347" fromTop="13" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:FailedEventsController.cs" caret="438" fromTop="15" />
-      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:FailedEventsRepository.cs" caret="825" fromTop="18" />
-      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:QuantityAdditionFailedEventHandler.cs" caret="593" fromTop="18" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ProductsController.cs" caret="1352" fromTop="18" />
-      <File id="107DC057-6F59-411D-AA6E-E57CA6DBB30D/f:ProductCommandProxy.cs" caret="971" fromTop="14" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Events/f:PaymentSucceededEvent.cs" caret="221" fromTop="9" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:IEventPublisher.cs" caret="160" fromTop="8" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:PaymentFailedEventHandler.cs" caret="402" fromTop="9" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:PaymentBeginEventHandler.cs" caret="112" fromTop="4" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:PaymentSucceededEventHandler.cs" caret="405" fromTop="15" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Commands/f:PerformPaymentCommand.cs" caret="165" fromTop="8" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:ViewModels/f:ShoppingCartWithGuidViewModel.cs" caret="322" fromTop="11" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Shared/f:_Layout.cshtml" caret="340" fromTop="12" />
+      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:IPaymentQuery.cs" caret="234" fromTop="10" />
+      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:PaymentQuery.cs" caret="199" fromTop="9" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ProductsController.cs" caret="0" fromTop="0" />
+      <File id="9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC/d:Infrastructure/f:PaymentStatus.cs" caret="142" fromTop="7" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Commands/f:ClearShoppingCartCommand.cs" caret="176" fromTop="7" />
+      <File id="9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC/d:Additional/f:PaymentData.cs" caret="254" fromTop="11" />
+      <File id="107DC057-6F59-411D-AA6E-E57CA6DBB30D/f:ProductCommandProxy.cs" caret="1495" fromTop="21" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Handlers/f:PerformPaymentCommandHandler.cs" caret="0" fromTop="0" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Handlers/f:ClearShoppingCartCommandHandler.cs" caret="512" fromTop="15" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:PaymentEventPublisher.cs" caret="455" fromTop="5" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Events/f:ClearShoppingCartEvent.cs" caret="168" fromTop="7" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:EventPublisher.cs" caret="1554" fromTop="24" />
+      <File id="C772601F-A83D-4FFF-B126-7902DA7D1AC8/f:ShoppingCart.cs" caret="1168" fromTop="23" />
+      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:ShoppingCartRepository.cs" caret="0" fromTop="0" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:ClearShoppingCartEventHandler.cs" caret="380" fromTop="13" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:QuantityAddedDbEventHandler.cs" caret="0" fromTop="0" />
+      <File id="3914DCC3-AC2E-4250-9006-E30C703286FB/f:BusinessProxy.cs" caret="1182" fromTop="19" />
       <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Handlers/f:AddQuantityCommandHandler.cs" caret="394" fromTop="15" />
-      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:ShoppingCartRepository.cs" caret="541" fromTop="13" />
-      <File id="3914DCC3-AC2E-4250-9006-E30C703286FB/f:BusinessProxy.cs" caret="634" fromTop="16" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1484" fromTop="12" />
+      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:PaymentRepository.cs" caret="956" fromTop="17" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="1059" fromTop="33" />
+      <File id="C772601F-A83D-4FFF-B126-7902DA7D1AC8/f:Payment.cs" caret="4705" fromTop="0" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="5421" fromTop="145" />
     </RecentFiles>
     <RecentEdits>
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="618" fromTop="21" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:ShoppingCartQuery.cs" caret="1622" fromTop="13" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:App_Start/f:WebApiConfig.cs" caret="383" fromTop="13" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="2899" fromTop="20" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="614" fromTop="10" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="350" fromTop="11" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:ShoppingCart.cshtml" caret="349" fromTop="16" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1965" fromTop="16" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:ShoppingCartQuery.cs" caret="1823" fromTop="15" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:ShoppingCartQuery.cs" caret="1622" fromTop="4" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1965" fromTop="9" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:IShoppingCartQuery.cs" caret="439" fromTop="19" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:ShoppingCartQuery.cs" caret="189" fromTop="9" />
-      <File id="73B8E944-7C71-4044-A5C3-B5DD6F329CF0/f:ShoppingCartQuery.cs" caret="2051" fromTop="21" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="607" fromTop="12" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1503" fromTop="7" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1963" fromTop="10" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1597" fromTop="2" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="2364" fromTop="17" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="54" fromTop="4" />
-      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:ShoppingCartRepository.cs" caret="546" fromTop="23" />
-      <File id="369C2441-97A1-4448-A593-D5FBE6C27B20/f:ShoppingCartRepository.cs" caret="546" fromTop="7" />
-      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:QuantityAddedDbEventHandler.cs" caret="567" fromTop="18" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1951" fromTop="9" />
-      <File id="3914DCC3-AC2E-4250-9006-E30C703286FB/f:BusinessProxy.cs" caret="634" fromTop="16" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3179" fromTop="19" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1484" fromTop="15" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1354" fromTop="9" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1354" fromTop="9" />
-      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1484" fromTop="12" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="4076" fromTop="19" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="4744" fromTop="17" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="4733" fromTop="16" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="4282" fromTop="9" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="1664" fromTop="15" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="715" fromTop="10" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3087" fromTop="16" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3991" fromTop="27" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3820" fromTop="15" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3731" fromTop="13" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="6084" fromTop="16" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Commands/f:ClearShoppingCartCommand.cs" caret="185" fromTop="7" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Handlers/f:ClearShoppingCartCommandHandler.cs" caret="241" fromTop="8" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Controllers/f:ShoppingCartController.cs" caret="1048" fromTop="10" />
+      <File id="107DC057-6F59-411D-AA6E-E57CA6DBB30D/f:ProductCommandProxy.cs" caret="1493" fromTop="21" />
+      <File id="8DE13BFF-EA10-4010-9FBE-3255A279091F/d:Handlers/f:ClearShoppingCartCommandHandler.cs" caret="512" fromTop="15" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Events/f:ClearShoppingCartEvent.cs" caret="168" fromTop="7" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:EventPublisher.cs" caret="0" fromTop="0" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:ClearShoppingCartEventHandler.cs" caret="250" fromTop="8" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:EventPublisher.cs" caret="963" fromTop="15" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/f:EventPublisher.cs" caret="1554" fromTop="24" />
+      <File id="C772601F-A83D-4FFF-B126-7902DA7D1AC8/f:ShoppingCart.cs" caret="1168" fromTop="23" />
+      <File id="3914DCC3-AC2E-4250-9006-E30C703286FB/f:BusinessProxy.cs" caret="1084" fromTop="17" />
+      <File id="1888E3CA-5893-434C-A708-81BC3EBE3207/d:Handlers/f:ClearShoppingCartEventHandler.cs" caret="380" fromTop="13" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1705" fromTop="19" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="1642" fromTop="16" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="3590" fromTop="13" />
+      <File id="C772601F-A83D-4FFF-B126-7902DA7D1AC8/f:Payment.cs" caret="4705" fromTop="12" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="7003" fromTop="18" />
+      <File id="5CD0EF75-7726-4284-9041-9CD29C6A4B2D/d:Views/d:Home/f:Products.cshtml" caret="5421" fromTop="16" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

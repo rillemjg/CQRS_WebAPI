@@ -47,7 +47,7 @@ namespace UnitTests.CommandHandlers
             {
             }
 
-            List<string> shoppingCartQueryResult = (List<string>)new ShoppingCartQuery().GetAllShoppingCartElements();
+            List<string> shoppingCartQueryResult = (List<string>)new ShoppingCartQuery().GetNamedShoppingCartElements();
             Assert.AreEqual(shoppingCartQueryResult.Count, 3);
         }
 

@@ -8,6 +8,7 @@ using System.Web.SessionState;
 using CommandProxy;
 using Commands.Commands;
 using Dtos;
+using Dtos.Core;
 using Queries;
 
 namespace MvcLearning_WebAPI.Controllers

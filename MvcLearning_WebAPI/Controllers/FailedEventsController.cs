@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Dtos;
+using Dtos.Additional;
 using Queries;
 
 namespace MvcLearning_WebAPI.Controllers

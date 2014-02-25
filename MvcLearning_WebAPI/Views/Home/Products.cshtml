@@ -2,50 +2,72 @@
     ViewBag.Title = "Products";
 }
 
-<h2>Products</h2>
+@*<script type="text/javascript" src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="~/Scripts/jquery-ui-1.8.20.min.js"></script>*@
 
-@using (Html.BeginForm())
-{
-    <select id="ddl" />
-    <input type="text" id="quant" />
-    <button type="button" id="bsend">Add product</button>
-}
+<div id="main-div">
+    <h2>Products</h2>
 
-<div id="shopping-cart">
-    <ul id="ulcart">
-    </ul>
+    @using (Html.BeginForm())
+    {
+        <select id="ddl" />
+        <input type="text" id="quant" />
+        <button type="button" id="bsend">Add product</button>
+        <button type="button" id="bcheckout">Checkout</button>
+    }
+
+    <div id="shopping-cart">
+        <ul id="ulcart">
+        </ul>
+    </div>
+
+    <div id="failed-events" style="color: Red">
+    </div>
+
+    <div id="pay-process">
+        <div id="pay-msg">
+            Processing payment...
+        </div>
+    </div>
 </div>
-
-<div id="failed-events" style="color: Red">
-</div>
-
-<script type="text/javascript" src="~/Scripts/jquery-1.7.1.min.js"></script>
 
 <script type="text/javascript">
     var selectedId = -1;
+    var shoppingCart = "";
+    var processingPayment = false;
+    var paymentGuid = "";
 
-    var getShoppingCart = function () {
+    function getShoppingCart () {
         $.get(
-            'http://localhost:49521/api/shoppingcart/getallshoppingcartelements',
+            'http://localhost:49521/api/shoppingcart/getnamedshoppingcartelements',
             function (data, textStatus, jqXHR) {
                 $("#ulcart").empty();
 
                 if (data != null && data.length > 0) {
+                    shoppingCart = data;
                     $.each(data, function (index, value) {
-                        $("#ulcart").append($("<li>").text(value));
+                        $("#ulcart").append($("<li>").text(value.ProductName + ": " + value.Quantity));
                     });
                 }
             }
         );
     };
 
-    var getFailedEvent = function () {
+    function clearShoppingCart() {
+        $.post(
+            'http://localhost:49521/api/shoppingcart/clearshoppingcart',
+            null,
+            function () { },
+            "json"
+        );
+    };
+
+    function getFailedEvent() {
         $.get(
             'http://localhost:49521/api/failedevents/get',
             function (data, textStatus, jqXHR) {
                 if (data != null) {
-                    console.log(data);
-                    $("<div>An error occured: " + data.EventName + "</div>")
+                    $("<div>An error occured: " + data.Message + "</div>")
                         .appendTo("#failed-events")
                         .fadeOut(4000, function () {
                             $(this).remove();
@@ -55,7 +77,7 @@
         );
     };
 
-    var checkDdlForId = function () {
+    function checkDdlForId () {
         $.get(
             'http://localhost:49521/api/shoppingcart/getfullcartelements',
             function (data, textStatus, jqXHR) {
@@ -68,6 +90,66 @@
         );
     };
 
+    function getPaymentData() {
+        if (processingPayment) {
+            $.get(
+                'http://localhost:49521/api/shoppingcart/getpaymentdata/' + paymentGuid,
+                function (data, textStatus, jqXHR) {
+                    if (data != null && data.PaymentGuid == paymentGuid) {
+                        if (data.PaymentStatus == 2) { // succeeded
+                            processingPayment = false;
+
+                            var msgDiv = $("#pay-msg");
+                            msgDiv.css("color: Blue");
+
+                            msgDiv.text("Payment suceeded").fadeOut(4000,
+                                function () {
+                                    $("#pay-process").dialog("close");
+                                });
+
+                                clearShoppingCart();
+
+                        } else if (data.PaymentStatus == 1) { // failed
+                            processingPayment = false;
+
+                            var msgDiv = $("#pay-msg");
+                            msgDiv.css("color: Red");
+
+                            msgDiv.text("Payment failed! Message: " + data.Message).fadeOut(4000,
+                                function () {
+                                    $("#pay-process").dialog("close");
+                                });
+                        }
+                    }
+                }
+            );
+        }
+    };
+
+    function s4() {
+        return Math.floor((1 + Math.random()) * 0x10000)
+                    .toString(16)
+                    .substring(1);
+    };
+
+    function guid() {
+        return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
+                        s4() + '-' + s4() + s4() + s4();
+    }
+
+    function overlayOn() {
+        console.log("overlayOn");
+//        $("#main-div").addClass("overlay");
+        $('#pay-process').dialog("open");
+    };
+
+    function overlayOff() {
+        console.log("overlayOff");
+        //        $("#main-div").addClass("overlay");
+        $('#pay-process').dialog("close");
+    };
+
+
     $(function () {
         $.get(
             'http://localhost:49521/api/products/getproducts',
@@ -78,7 +160,7 @@
                             selectedId = value.Id;
                         }
 
-                        $("#ddl").append($('<option>').text(value.Name).attr('value', value.Id));
+                        $("#ddl").append($('<option>').text(value.Name + ' (' + value.Price + '$)').attr('value', value.Id));
                     });
                 }
             }
@@ -101,8 +183,40 @@
             }
         });
 
+        $("#bcheckout").click(function (data) {
+            overlayOn();
+            paymentGuid = guid();
+            processingPayment = true;
+
+            $("#pay-msg").show();
+            $("#pay-msg").text("Processing payment...");
+
+            $.post(
+                'http://localhost:49521/api/shoppingcart/post',
+                { ShoppingCartElements: shoppingCart, Guid: paymentGuid },
+                function () { },
+                "json"
+            );
+        });
+
+        $('#pay-process').dialog({
+            closeOnEscape: false,
+            open: function (event, ui) {
+                $('body').css('overflow', 'hidden');
+                $(".ui-dialog-titlebar-close").hide();
+            },
+            close: function (event, ui) {
+                $('body').css('overflow', 'visible');
+            },
+            autoOpen: false,
+            width: 400,
+            height: 100,
+            modal: true
+        });
+
         setInterval(getShoppingCart, 2000);
         setInterval(getFailedEvent, 2000);
         setInterval(checkDdlForId, 8000);
+        setInterval(getPaymentData, 4000);
     });
 </script>

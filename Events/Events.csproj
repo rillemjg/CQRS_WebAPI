@@ -41,13 +41,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventPublisher.cs" />
+    <Compile Include="Events\ClearShoppingCartEvent.cs" />
     <Compile Include="Events\IEvent.cs" />
+    <Compile Include="Events\PaymentBeginEvent.cs" />
+    <Compile Include="Events\PaymentFailedEvent.cs" />
+    <Compile Include="Events\PaymentSucceededEvent.cs" />
     <Compile Include="Events\QuantityAddedEvent.cs" />
     <Compile Include="Events\QuantityAdditionFailedEvent.cs" />
+    <Compile Include="Handlers\ClearShoppingCartEventHandler.cs" />
     <Compile Include="Handlers\IEventHandler.cs" />
+    <Compile Include="Handlers\PaymentBeginEventHandler.cs" />
+    <Compile Include="Handlers\PaymentFailedEventHandler.cs" />
+    <Compile Include="Handlers\PaymentSucceededEventHandler.cs" />
     <Compile Include="Handlers\QuantityAddedDbEventHandler.cs" />
     <Compile Include="Handlers\QuantityAdditionFailedEventHandler.cs" />
     <Compile Include="IEventPublisher.cs" />
+    <Compile Include="PaymentEventPublisher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

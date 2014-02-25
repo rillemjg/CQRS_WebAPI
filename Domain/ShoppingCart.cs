@@ -30,5 +30,10 @@ namespace Domain
                 this.eventPublisher.Publish(new QuantityAddedEvent() { ProductId = this.productId, AddedQuantity = addedQuantity });
             }
         }
+
+        public void ClearShoppingCart()
+        {
+            this.eventPublisher.Publish(new ClearShoppingCartEvent());
+        }
     }
 }

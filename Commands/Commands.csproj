@@ -41,7 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\AddQuantityCommand.cs" />
+    <Compile Include="Commands\ClearShoppingCartCommand.cs" />
+    <Compile Include="Commands\PerformPaymentCommand.cs" />
     <Compile Include="Handlers\AddQuantityCommandHandler.cs" />
+    <Compile Include="Handlers\ClearShoppingCartCommandHandler.cs" />
+    <Compile Include="Handlers\PerformPaymentCommandHandler.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,6 +58,10 @@
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{C772601F-A83D-4FFF-B126-7902DA7D1AC8}</Project>
       <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dtos\Dtos.csproj">
+      <Project>{9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC}</Project>
+      <Name>Dtos</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Dtos;
+using Dtos.Core;
 using Repositories;
 using Domain;
 using Events;
@@ -25,9 +26,21 @@ namespace BusinessProxy
 
             var quantityAdditionFailedEventHandler = new QuantityAdditionFailedEventHandler();
             var quantityAddedDbEventHandler = new QuantityAddedDbEventHandler();
-            return new ShoppingCart(new EventPublisher(quantityAdditionFailedEventHandler, quantityAddedDbEventHandler),
+            var clearShoppingCartEventHandler = new ClearShoppingCartEventHandler();
+            return new ShoppingCart(new EventPublisher(quantityAdditionFailedEventHandler, quantityAddedDbEventHandler, clearShoppingCartEventHandler),
                 shoppingCartElement.ProductId,
                 shoppingCartElement.Quantity);
+        }
+
+        public Payment GetPayment(List<int> productIds, string paymentGuid)
+        {
+            var products = ProductRepository.GetByIds(productIds);
+            var paymentSucceededEventHandler = new PaymentSucceededEventHandler();
+            var paymentFailedEventHandler = new PaymentFailedEventHandler();
+            var paymentBeginEventHandler = new PaymentBeginEventHandler();
+
+            return new Payment(new PaymentEventPublisher(paymentSucceededEventHandler, paymentFailedEventHandler, paymentBeginEventHandler),
+                products, paymentGuid);
         }
     }
 }

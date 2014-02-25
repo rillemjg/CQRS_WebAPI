@@ -41,6 +41,16 @@ namespace CommandProxy
                 var commandHandler = new AddQuantityCommandHandler();
                 commandHandler.Handle((AddQuantityCommand)command);
             }
+            else if (command is PerformPaymentCommand)
+            {
+                var commandHandler = new PerformPaymentCommandHandler();
+                commandHandler.Handle((PerformPaymentCommand)command);
+            }
+            else if (command is ClearShoppingCartCommand)
+            {
+                var commandHandler = new ClearShoppingCartCommandHandler();
+                commandHandler.Handle((ClearShoppingCartCommand)command);
+            }
 
             commandsList.RemoveAt(0);
             return commandsList.Count == 0;

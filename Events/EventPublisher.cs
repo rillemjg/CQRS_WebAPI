@@ -11,11 +11,15 @@ namespace Events
     {
         private QuantityAdditionFailedEventHandler quantityAdditionFailedEventHandler;
         private QuantityAddedDbEventHandler quantityAddedDbEventHandler;
+        private ClearShoppingCartEventHandler clearShoppingCartEventHandler;
 
-        public EventPublisher(QuantityAdditionFailedEventHandler quantityAdditionFailedEventHandler, QuantityAddedDbEventHandler quantityAddedDbEventHandler)
+        public EventPublisher(QuantityAdditionFailedEventHandler quantityAdditionFailedEventHandler,
+            QuantityAddedDbEventHandler quantityAddedDbEventHandler,
+            ClearShoppingCartEventHandler clearShoppingCartEventHandler)
         {
             this.quantityAdditionFailedEventHandler = quantityAdditionFailedEventHandler;
             this.quantityAddedDbEventHandler = quantityAddedDbEventHandler;
+            this.clearShoppingCartEventHandler = clearShoppingCartEventHandler;
         }
 
         public void Publish(IEvent eventData)
@@ -27,6 +31,10 @@ namespace Events
             else if (eventData is QuantityAddedEvent)
             {
                 quantityAddedDbEventHandler.Handle((QuantityAddedEvent)eventData);
+            }
+            else if (eventData is ClearShoppingCartEvent)
+            {
+                clearShoppingCartEventHandler.Handle((ClearShoppingCartEvent)eventData);
             }
         }
     }

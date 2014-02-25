@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Dtos;
+using Dtos.Core;
 using Repositories;
+using Dtos.Additional;
 
 namespace Queries
 {
@@ -19,23 +21,31 @@ namespace Queries
             return ProductRepository.GetById(id);
         }
 
-        public IEnumerable<string> GetAllShoppingCartElements()
+        public IEnumerable<ShoppingCartNamedElement> GetNamedShoppingCartElements()
         {
-            List<string> elements = new List<string>();
+            var shoppingCartElements = ShoppingCartRepository.GetAllShoppingCartElements();
+            var products = ProductRepository.GetAllProducts();
 
-            var repositoryElements = ShoppingCartRepository.GetAllShoppingCartElements();
+            var namedElements = new List<ShoppingCartNamedElement>();
 
-            foreach (var shoppingCartElement in repositoryElements)
+            if (shoppingCartElements != null && products != null)
             {
-                var repositoryProduct = ProductRepository.GetById(shoppingCartElement.ProductId);
-
-                if (repositoryProduct != null)
+                foreach (var shoppingCartElement in shoppingCartElements)
                 {
-                    elements.Add(repositoryProduct.Name + ": " + shoppingCartElement.Quantity);
+                    var product = products.SingleOrDefault(x => x.Id == shoppingCartElement.ProductId);
+
+                    if (product != null)
+                    {
+                        namedElements.Add(new ShoppingCartNamedElement() {
+                            ProductId = product.Id,
+                            ProductName = product.Name,
+                            Quantity = shoppingCartElement.Quantity
+                        });
+                    }
                 }
             }
 
-            return elements;
+            return namedElements;
         }
 
         public string GetShoppingCartElement(int productId)

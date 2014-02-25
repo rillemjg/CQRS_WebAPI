@@ -33,6 +33,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,14 +44,138 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Payment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="ShoppingCart.cs" />
+    <Compile Include="Web References\com.nicusa.cdc.dev.tpe2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Dtos\Dtos.csproj">
+      <Project>{9E3D8C65-AD1D-4570-AD80-1812EA1DEFEC}</Project>
+      <Name>Dtos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Events\Events.csproj">
       <Project>{1888E3CA-5893-434C-A708-81BC3EBE3207}</Project>
       <Name>Events</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\BaseResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\ContextInterface.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\DisbursementReportContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\DisbursementResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\IdResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\InstantPaymentContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\NewDisbursementReportContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\OrderAttributeContainerContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\PaymentEngineService.wsdl" />
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\RefundItemContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\RefundwithoutOrderContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\Response.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\ReturnsWebQueryResultArrayContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\StringArrayContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\StringContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\TexasRefundItemContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\UsasRefundContainer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\VerificationsContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\VerificationsZipContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WebServiceResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSInvoiceContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSInvoicesContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSMerchantContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSMutableOrderAttributes.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSOrderContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSOrdersContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.nicusa.cdc.dev.tpe2\WSServiceInfoContext.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://tpe-test.dev.cdc.nicusa.com/paymentengine/services/PaymentEngineService%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.nicusa.cdc.dev.tpe2\</RelPath>
+      <UpdateFromURL>https://tpe-test.dev.cdc.nicusa.com/paymentengine/services/PaymentEngineService%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Domain_com_nicusa_cdc_dev_tpe2_PaymentEngineService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

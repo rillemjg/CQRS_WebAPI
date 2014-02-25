@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Dtos.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Events.Events;
 using Events.Handlers;

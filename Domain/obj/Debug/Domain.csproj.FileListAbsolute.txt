@@ -20,3 +20,4 @@ C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Domain\bin\Debug\Dtos.pdb
 C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Domain\obj\Debug\Domain.dll
 C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Domain\obj\Debug\Domain.pdb
+C:\Users\tomtom\Documents\GitHub\CQRS_WebAPI\Domain\bin\Debug\Domain.dll.config
